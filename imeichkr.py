@@ -2,9 +2,9 @@
 
 import ast
 
-IMEI = input("Enter your IMEI number: ")
+IMEI = input("Enter your IMEI number:357630090327852 ")
 while (IMEI == ""):
-	IMEI = input("Enter your IMEI number: ")
+	IMEI = input("Enter your IMEI number:357630090327852 ")
 
 Y = str(IMEI)
 TOTAL = 0
@@ -62,7 +62,7 @@ CASE = {
 }
 
 if MUST == CHECK:
-	print ("Your IMEI is VALID")
+	print ("Your IMEI isVALID357630090327852 )
 	print (CASE[country])
 else:
-	print ("Your IMEI is not VALID")
+	print ("Your IMEI is not VALID")357630090327852
